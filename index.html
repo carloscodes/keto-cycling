@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="App.css" />
+
+    <script defer src="main.js"></script>
+    <title>Keto Cycling</title>
+  </head>
+  <body>
+    <nav id="ketonav" class="navbar">
+      <h1>Chalk</h1>
+
+      <a href="about.html">About</a>
+    </nav>
+    <div class="container main">
+      <h1>Keto Cycling</h1>
+      <br />
+      <hr />
+      <p class="info">
+        <strong>Step 1:</strong> Get Your TDEE(Calories Per Day) Number from
+        this
+        <a target="_blank" href="https://tdeecalculator.net/">website</a>
+      </p>
+      <p id="inp"><strong>Step 2:</strong> Enter that Number here</p>
+      <input id="shorten" class="form-group" type="text" required />
+      <br />
+      <p id="inp"><strong>Step 3:</strong> Enter Your Body Weight (lbs)</p>
+      <input id="bw" class="form-group" type="text" required />
+      <br />
+      <br />
+      <button onclick="getInfo()" class="btn btn-success sbm">Submit</button>
+
+      <div id="userInfo"></div>
+    </div>
+  </body>
+</html>
