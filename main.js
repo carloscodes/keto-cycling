@@ -196,7 +196,7 @@ function getInfo() {
     <br>
     <hr>
     <br>
-    <p> <strong>Low Carb Day at a 20% deficit will consist of:</strong </p>
+    <p> <strong>Low Carb Day at a 20% deficit:</strong </p>
     <br>
 
     <ul>
@@ -206,7 +206,7 @@ function getInfo() {
         <li>Fats: ${fatCalories} Calories / ${fatGrams} Grams</li>
     </ul>
     <br>
-    <p> <strong>High Carb Day at a 20% deficit will consist of:</strong> </p>
+    <p> <strong>High Carb Day at a 20% deficit:</strong> </p>
     <br>
 
     <ul>
